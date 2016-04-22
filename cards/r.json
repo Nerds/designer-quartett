@@ -1,11 +1,11 @@
 {
   "card": {
-    "name": "Ruby",
-    "year-of-appereance": "1995",
-    "stackoverflow-entries": 158315,
+    "name": "R",
+    "year-of-appereance": "1993",
+    "stackoverflow-entries": 134006,
     "hello-world-length": 20,
-    "active-github-repos": 132848,
-    "version-number": "2.3.0",
+    "active-github-repos": 34268,
+    "version-number": "3.5.2",
     "created-at": "2016-04-22",
     "creator": "Railslove",
     "creator-twitter": "railslove",

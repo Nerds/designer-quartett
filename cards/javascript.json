@@ -1,11 +1,11 @@
 {
   "card": {
-    "name": "Ruby",
+    "name": "Javascript",
     "year-of-appereance": "1995",
-    "stackoverflow-entries": 158315,
-    "hello-world-length": 20,
-    "active-github-repos": 132848,
-    "version-number": "2.3.0",
+    "stackoverflow-entries": 1105684,
+    "hello-world-length": 32,
+    "active-github-repos": 323938,
+    "version-number": "EcmaScript 6",
     "created-at": "2016-04-22",
     "creator": "Railslove",
     "creator-twitter": "railslove",
