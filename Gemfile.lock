@@ -1,0 +1,19 @@
+GEM
+  remote: http://rubygems.org/
+  specs:
+    addressable (2.3.8)
+    json (1.8.3)
+    json-schema (2.6.1)
+      addressable (~> 2.3.8)
+    minitest (5.8.4)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  json
+  json-schema
+  minitest
+
+BUNDLED WITH
+   1.10.6

@@ -1,0 +1,61 @@
+{
+  "type": "object",
+  "title": "Card",
+  "description":"A card",
+  "name": "Card",
+  "properties":{
+    "name":{
+      "type":"string",
+      "description":"name of the language",
+      "maxLength": 30,
+      "required":true
+    },
+    "year-of-appereance":{
+      "type":"string",
+      "description":"date of appeareance",
+      "required":true
+    },
+    "stackoverflow-entries":{
+      "type":"integer",
+      "description":"entries on stackoverflow",
+      "required":true
+    },
+    "hello-world-length":{
+      "type":"integer",
+      "description":"length of the hello world code",
+      "required":true
+    },
+    "active-github-repos":{
+      "type":"integer",
+      "description":"amount of repositories on github",
+      "required":true
+    },                
+    "version-number":{
+      "type":"string",
+      "description":"version number of the language",
+      "required":true
+    }, 
+    "created-at": {
+      "description": "Date the card was created. Never changes afterwards YYYY-MM-DD",
+      "format":"date",
+      "readonly":true,
+      "type":"string"
+    },
+    "creator": {
+      "description": "Name of the person who supplied the card",
+      "readonly":true,
+      "type":"string",
+      "required":true
+    },
+    "creator-twitter": {
+      "description": "Twitter handle of the person who supplied the card",
+      "readonly":true,
+      "type":"string"
+    },
+    "creator-github": {
+      "description": "Github username of the person who supplied the card",
+      "readonly":true,
+      "type":"string"
+    }    
+  }
+}
